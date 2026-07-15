@@ -1,0 +1,90 @@
+{
+  "classes": {
+    "__doc__": {
+      "classNumber": "number",
+      "name": "string",
+      "description": "string",
+      "order": "number"
+    }
+  },
+  "chapters": {
+    "__doc__": {
+      "classId": "string",
+      "name": "string",
+      "description": "string",
+      "order": "number"
+    }
+  },
+  "questions": {
+    "__doc__": {
+      "classId": "string",
+      "chapterId": "string",
+      "type": "string",
+      "difficulty": "string",
+      "marks": "number",
+      "text": "string",
+      "options": ["string"],
+      "correctAnswer": "string",
+      "explanation": "string",
+      "hint": "string",
+      "estimatedTime": "number",
+      "relatedConcept": "string",
+      "tags": ["string"],
+      "createdAt": "timestamp",
+      "updatedAt": "timestamp",
+      "createdBy": "string"
+    }
+  },
+  "worksheets": {
+    "__doc__": {
+      "classId": "string",
+      "title": "string",
+      "description": "string",
+      "difficulty": "string",
+      "estimatedTime": "number",
+      "questionIds": ["string"],
+      "createdAt": "timestamp",
+      "createdBy": "string"
+    }
+  },
+  "quizzes": {
+    "__doc__": {
+      "classId": "string",
+      "title": "string",
+      "timeLimit": "number",
+      "questionIds": ["string"],
+      "createdAt": "timestamp",
+      "createdBy": "string"
+    }
+  },
+  "users": {
+    "__doc__": {
+      "email": "string",
+      "role": "string",
+      "createdAt": "timestamp"
+    }
+  },
+  "user_progress": {
+    "__doc__": {
+      "userId": "string",
+      "xp": "number",
+      "coins": "number",
+      "streak": "number",
+      "lastActiveDate": "string",
+      "favoriteChapters": ["string"],
+      "bookmarkedQuestions": ["string"],
+      "lastRewardDate": "string"
+    }
+  },
+  "quiz_attempts": {
+    "__doc__": {
+      "userId": "string",
+      "quizId": "string",
+      "score": "number",
+      "total": "number",
+      "percentage": "number",
+      "timeTaken": "number",
+      "timestamp": "timestamp"
+    }
+  }
+}

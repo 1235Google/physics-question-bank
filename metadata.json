@@ -1,0 +1,8 @@
+{
+  "name": "Physics Question Bank",
+  "description": "An interactive, responsive physical science educational website featuring practice worksheets, quiz modules, concept solutions, and printable PDFs for Classes 6 through 10.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
